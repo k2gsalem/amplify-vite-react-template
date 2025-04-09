@@ -20,7 +20,7 @@ function App() {
 
   return (
     <main>
-      <h1>My todos</h1>
+      <h1>Testy Gopi</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (<li 
@@ -38,7 +38,6 @@ function App() {
       <button onClick={signOut}>Sign out</button>
     </main>
   );
-
     
   function deleteTodo(id: string) {
     client.models.Todo.delete({ id })
