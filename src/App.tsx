@@ -20,7 +20,7 @@ function App() {
 
   return (
     <main>
-      <h1>Testy 2343</h1>
+      <h1>Test</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (<li 
